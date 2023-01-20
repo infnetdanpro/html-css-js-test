@@ -1,0 +1,43 @@
+/* second level */
+.banner {
+    align-items: flex-start;
+    margin: 25px;
+}
+
+.right-img-banner {
+    max-width: 700px;
+}
+
+/* left p tags index */
+.head {
+    font-size: 50px;
+    font-weight: 550;
+    font-family: Tahoma, sans-serif;
+    line-height: 10px;
+}
+
+.start-build {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 30px 20px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #000;
+    color: #fff;
+
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #000;
+    cursor: pointer;
+}
+
+.desc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    max-width: 350px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.start-build-sep {
+    margin-top: 70px;
+}

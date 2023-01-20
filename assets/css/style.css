@@ -1,0 +1,65 @@
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+/* Global header block container */
+nav {
+    margin: 25px;
+}
+
+/* Start Top block nav */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* element row */
+.container-nav {
+    flex-direction: row;
+}
+/* end element row */
+.container a {
+    text-decoration: none;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    width: 64px;
+    height: 48px;
+    
+    padding: 20px 30px 20px 30px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #000;
+    cursor: pointer;
+}
+.menu-button {
+    padding: 12px 18px 12px 18px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.button:hover, .menu-button:hover {
+    background-color: #eee;
+}
+
+/* Start Menu links */
+.container-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-menu-nav {
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+/* End */
+
+/* end */
